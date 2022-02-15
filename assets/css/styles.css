@@ -8,12 +8,19 @@
 */
 /* ======= Base ======= */
 body {
-  font-family: 'Lato', arial, sans-serif;
+  /* font-family: 'Lato', arial, sans-serif;
   color: #434343;
-  background: #dae3e7;
+  background: #2e3f538a;
   font-size: 16px;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  -moz-osx-font-smoothing: grayscale; */
+
+  font-family: 'Lato', monospace, sans-serif;
+  color: black;
+  background: #072251;
+  font-size: 17px;
+  font-weight: normal;
+  -webkit-font-smoothing: subpixel-antialiased;
 }
 
 h1,
@@ -28,7 +35,7 @@ h6 {
 }
 
 a {
-  color: #3aaa64;
+  color: #2E4053;
   -webkit-transition: all 0.4s ease-in-out;
   -moz-transition: all 0.4s ease-in-out;
   -ms-transition: all 0.4s ease-in-out;
@@ -38,7 +45,7 @@ a {
 a:hover {
   text-decoration: underline;
   color: #5f6b77;
-  color: #2d844e;
+  color: #2E4053;
 }
 
 .btn,
@@ -64,8 +71,8 @@ a.btn:focus {
 
 a.btn-cta-primary,
 .btn-cta-primary {
-  background: #54ba4e;
-  border: 1px solid #54ba4e;
+  background: #2E4053;
+  border: 1px solid #2E4053;
   color: #fff;
   font-weight: 600;
   text-transform: uppercase;
@@ -73,8 +80,8 @@ a.btn-cta-primary,
 
 a.btn-cta-primary:hover,
 .btn-cta-primary:hover {
-  background: #49ac43;
-  border: 1px solid #49ac43;
+  background: #2E4053;
+  border: 1px solid #2E4053;
   color: #fff;
 }
 
@@ -99,7 +106,7 @@ a.btn-cta-secondary:hover,
 }
 
 .label-theme {
-  background: #3aaa64;
+  background: #2E4053;
   font-size: 12px;
 }
 
@@ -161,7 +168,7 @@ iframe {
 }
 
 .header .profile-content .social a {
-  background: #b0b7bf;
+  background: #2E4053;
   width: 36px;
   height: 36px;
   display: inline-block;
@@ -274,7 +281,7 @@ iframe {
 }
 
 .latest .featured-image .text {
-  background: #3aaa64;
+  background: #2E4053;
   color: #fff;
 }
 
@@ -443,7 +450,7 @@ iframe {
 
 .skills .skillset .level-bar-inner {
   height: 15px;
-  background: #66cb8c;
+  background: #2E4053;
 }
 
 /* Testimonials section */
@@ -458,12 +465,12 @@ iframe {
 .testimonials .item .quote {
   color: #666666;
   font-size: 16px;
-  border-left-color: #9fdeb7;
+  border-left-color: #2E4053;
   margin-bottom: 15px;
 }
 
 .testimonials .item .quote .fa {
-  color: #79d19a;
+  color: #2E4053;
   margin-right: 15px;
 }
 
@@ -527,7 +534,7 @@ iframe {
 }
 
 .languages .item .fa {
-  color: #79d19a;
+  color: #2E4053;
 }
 
 /* Blog Section */
